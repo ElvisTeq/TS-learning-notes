@@ -8,7 +8,7 @@
 
 35.
 
-- Compiling the entire project
+- Compiling The Entire Project
 
 --------------------------------- tsc --init
 
@@ -21,3 +21,26 @@
 --------------------------------- tsc -w
 
 - Works with watch mode
+
+36.
+
+- Including & Excluding Files
+
+--------------------------------- "exclude": [FILENAME]
+
+- Add to "tsconfig.json" to exclude the file for "tsc"
+- Typically use to exclude "node_modules" (normally is exluded by default)
+
+--------------------------------- "exclude": [*.dev.ts]
+--------------------------------- "exclude": [**/*.dev.ts]
+
+- To exclude all files that ends with "dev.ts"
+- [*] = All
+
+--------------------------------- "include": [FILENAME]
+
+- Will compile only "include" files
+
+--------------------------------- "files": [FILENAME]
+
+- for files only (small projects)
