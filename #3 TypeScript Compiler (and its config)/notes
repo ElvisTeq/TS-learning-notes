@@ -5,3 +5,19 @@
 --------------------------------- tsc FILENAME -w
 
 - Automatically compiles on save
+
+35.
+
+- Compiling the entire project
+
+--------------------------------- tsc --init
+
+- only need to run once on the project (make sure is the right folder)
+
+--------------------------------- tsc
+
+- to compile the project
+
+--------------------------------- tsc -w
+
+- Works with watch mode
