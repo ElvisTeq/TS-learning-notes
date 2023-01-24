@@ -58,3 +58,17 @@
 
 - Tells TS this will be something later
 - Use for DOM variables whioch TS don't understand
+
+39.
+
+- More Config & Copilation Options
+
+- To use maybe when writting vanilla JS nest to TS files
+
+--------------------------------- "allowJs": true,
+
+- when "tsc" TS checks for other files, not just ".ts" files
+
+--------------------------------- "checkJs": true,
+
+- Checks for ".js" files
