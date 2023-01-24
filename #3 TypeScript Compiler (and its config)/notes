@@ -44,3 +44,17 @@
 --------------------------------- "files": [FILENAME]
 
 - for files only (small projects)
+
+38.
+
+- Understanding TypeScript Core Libs
+
+--------------------------------- "lib": []
+
+- What library to use ["dom","es5","es6",etc...]
+- "lib": ["dom","es6","dom.iterable","scripthost"] = Default as "targert": "es6"
+
+--------------------------------- !
+
+- Tells TS this will be something later
+- Use for DOM variables whioch TS don't understand
