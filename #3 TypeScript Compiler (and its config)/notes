@@ -72,3 +72,11 @@
 --------------------------------- "checkJs": true,
 
 - Checks for ".js" files
+
+40.
+
+- Working With Source Maps
+
+-------------------------------- "sourceMap": true,
+
+- To show TS files in the Sources tab for Debuging
