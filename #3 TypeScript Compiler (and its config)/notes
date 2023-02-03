@@ -79,4 +79,8 @@
 
 -------------------------------- "sourceMap": true,
 
-- To show TS files in the Sources tab for Debuging
+- To show TS files in the Sources tab for Debuging (Web Browser)
+
+41.
+
+- rootDir and outDir
