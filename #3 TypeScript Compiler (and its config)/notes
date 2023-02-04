@@ -84,3 +84,19 @@
 41.
 
 - rootDir and outDir
+
+-------------------------------- "outDir": "./LOCATION"
+
+- TSC Compile location ("where" the fole should be stored)
+
+-------------------------------- "rootDir": "./LOCATION"
+
+- Compile only this
+
+-------------------------------- "noEmit": true
+
+- Does not create JS file on compile (to only check for errors)
+
+-------------------------------- "downlevelIteration": true
+
+- To prevent error from loops
