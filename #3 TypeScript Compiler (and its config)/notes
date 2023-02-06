@@ -130,3 +130,19 @@
 ------------------------------- "strictBindCallApply": false
 
 - to avoid Checks for ".bind" method
+
+44.
+
+- Code Quality Options
+
+------------------------------- "noUnusedLocals": true
+
+- Checks for unused code
+
+------------------------------- "noUnusedParameters": true
+
+- Checks for unused parameters
+
+------------------------------- "noImplicitReturns": true
+
+- Checks for functions that does not always returns something
