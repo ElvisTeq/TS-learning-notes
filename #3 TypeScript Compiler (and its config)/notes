@@ -108,3 +108,25 @@
 -------------------------------- "noEmitOnError": true
 
 - TSC will not compile if there's an error
+
+43.
+
+- Strict Compilation
+
+------------------------------- "strict": true
+
+- Set all "Type Checking" section to "true"
+
+------------------------------- "noImplicitAny": false
+
+- Avoids "any" type errors
+
+------------------------------- "strictNullChecks": false
+
+- Avoid null checks errors on document.querySelector
+- Can use "!" as a work around
+- Or use "if" on document.querySelector
+
+------------------------------- "strictBindCallApply": false
+
+- to avoid Checks for ".bind" method
