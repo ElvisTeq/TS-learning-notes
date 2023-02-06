@@ -100,3 +100,11 @@
 -------------------------------- "downlevelIteration": true
 
 - To prevent error from loops
+
+42.
+
+- Stop Emitting Files on Compilation Errors
+
+-------------------------------- "noEmitOnError": true
+
+- TSC will not compile if there's an error
